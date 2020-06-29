@@ -1,0 +1,13 @@
+{
+  "name": "hl7fhir.cn.template",
+  "version": "0.0.1",
+  "type": "fhir.template",
+  "license": "CC0-1.0",
+  "description": "FHIR实施指南 中文模板",
+  "author": "http://hl7fhir.cn",
+  "canonical": "https://github.com/hl7china/ig-template-cn",
+  "base": "hl7.fhir.template",
+  "dependencies": {
+    "hl7.fhir.template": "current"
+  }
+}
