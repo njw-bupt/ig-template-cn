@@ -6,8 +6,9 @@
   "description": "FHIR实施指南 中文模板",
   "author": "http://hl7fhir.cn",
   "canonical": "https://github.com/hl7china/ig-template-cn",
-  "base": "hl7.fhir.template",
+  "base": "fhir.base.template",
   "dependencies": {
-    "hl7.fhir.template": "current"
-  }
+    "fhir.base.template": "current"
+  },
+  "version": "0.1.1"
 }
