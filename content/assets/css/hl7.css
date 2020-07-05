@@ -1,13 +1,24 @@
-/* Product families should override the following two colors with family-specific colors */
+/* FHIR colors */
 #segment-footer > .container {
-  background-color: #505050;
+  background-color: #ad1f2f;
 }
 .navbar-inverse {
-  background-color: #505050;
+  background-color: #ad1f2f;
 }
 .navbar-inverse .navbar-nav > li > a:hover {
-  background-color: #808080;
+  background-color: #790713;
 }
+#family-nav {
+  line-height: 50px;
+  float: right;
+  margin-top: 4px;
+  color: #808080;
+}
+#family-logo {
+  float: right;
+  margin-left: 6px;
+}
+
 /* Generic settings common to all HL7 IGs */
 #hl7-nav {
   line-height: 50px;
