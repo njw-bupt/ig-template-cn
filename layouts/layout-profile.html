@@ -39,10 +39,10 @@
 {% endunless %}
   </ul>
   <a name="root"> </a>
-  <h2 id="root">StructureDefinition: {{[title]}}</h2>
+  <h2 id="root">结构定义: {{[title]}}</h2>
   <p>{{site.data.structuredefinitions['{{[id]}}'].description | markdownify}}</p>
   <p>
-  The official URL for this profile is:
+  此资源已在<a target="_blank" href="http://fhir.press:35000/#/resource/{{site.data.structuredefinitions['{{[id]}}'].basename}}">FHIR.PREE注册 <img src="external.png"/></a>，其官方定义URL如下：
   </p>
   <pre>{{site.data.structuredefinitions['{{[id]}}'].url}}</pre>
 
@@ -63,14 +63,14 @@
   {% endif %}
   <!-- no uri -->
   <a name="profile"> </a>
-  <h3 id="profile">Formal Views of Profile Content</h3>
+  <h3 id="profile">资源文档视图</h3>
   <p>
-    <a href="{{site.data.fhir.path}}profiling.html#representation">Description of Profiles, Differentials, Snapshots and how the different presentations work</a>.
+    <a href="http://hl7fhir.cn/R4/profiling.html#presentation">查看各种资源文档视图（文字概述、差异视图、完整快照）的区别</a>.
   </p>
   <div id="tabs">
     <ul>
       <li>
-        <a href="#tabs-summ">概述</a>
+        <a href="#tabs-summ">文字概述</a>
       </li>
       <li>
         <a href="#tabs-diff">差异视图</a>
@@ -94,7 +94,7 @@
       </li>-->
 {% endunless %}
       <li>
-        <a href="#tabs-all">All</a>
+        <a href="#tabs-all">全部</a>
       </li>
     </ul>
     <a name="tabs-summ"> </a>
