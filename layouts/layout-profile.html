@@ -159,7 +159,7 @@
     <a name="tabs-all"> </a>
     <div id="tabs-all">
       <div id="all-summ">
-        <p>This structure is derived from <a href="{{site.data.structuredefinitions['{{[id]}}'].basepath}}">{{site.data.structuredefinitions['{{[id]}}'].basename}}</a>
+        <p>此结构继承自： <a href="{{site.data.structuredefinitions['{{[id]}}'].basepath}}">{{site.data.structuredefinitions['{{[id]}}'].basename}}</a>
         </p>
         <div id="all-summ-inner">
           {%include StructureDefinition-{{[id]}}-summary.xhtml%}
@@ -167,9 +167,9 @@
       </div>
       <div id="all-tbl-diff">
         <p>
-          <b>Differential View</b>
+          <b>差异视图</b>
         </p>
-        <p>This structure is derived from <a href="{{site.data.structuredefinitions['{{[id]}}'].basepath}}">{{site.data.structuredefinitions['{{[id]}}'].basename}}</a>
+        <p>此结构继承自： <a href="{{site.data.structuredefinitions['{{[id]}}'].basepath}}">{{site.data.structuredefinitions['{{[id]}}'].basename}}</a>
         </p>
         <div id="all-tbl-diff-inner">
           {%include StructureDefinition-{{[id]}}-diff.xhtml%}
@@ -177,7 +177,7 @@
       </div>
       <div id="all-tbl-snap">
         <p>
-          <b>Snapshot View</b>
+          <b>完整快照</b>
         </p>
         <div id="all-tbl-snap-inner">
           {%include StructureDefinition-{{[id]}}-snapshot.xhtml%}
@@ -216,14 +216,14 @@
     </div>
   </div>
   <p>&#160;</p>
-  <p>Other representations of profile: <a href="{{[type]}}-{{[id]}}.sch">Schematron</a>
+  <p>此资源文档的其它表述形式: <a href="{{[type]}}-{{[id]}}.sch">Schematron</a>
   </p>
   <a name="tx"> </a>
-  <h3 id="tx">Terminology Bindings</h3>
+  <h3 id="tx">绑定的术语</h3>
   {%include StructureDefinition-{{[id]}}-tx.xhtml%}
 
   <a name="inv"> </a>
-  <h3 id="inv">Constraints</h3>
+  <h3 id="inv">约束关系</h3>
   {%include StructureDefinition-{{[id]}}-inv.xhtml%}
 
   {% assign notes = site.data.pages[page.path].notes %}
