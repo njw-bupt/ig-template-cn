@@ -1,10 +1,10 @@
 {
-  "name": "hl7fhir.cn.template",
+  "name": "hl7fhir.cn.template.publicHealth",
   "type": "fhir.template",
   "license": "CC0-1.0",
-  "description": "FHIR实施指南 中文模板",
+  "description": "FHIR实施指南中文模板之公卫规范集分支",
   "author": "http://hl7fhir.cn",
-  "canonical": "https://github.com/hl7china/ig-template-cn",
+  "canonical": "https://github.com/HL7China/ig-template-cn/tree/SC-Public-Health-R4",
   "base": "fhir.base.template",
   "dependencies": {
     "fhir.base.template": "current"
