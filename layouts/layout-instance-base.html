@@ -9,22 +9,22 @@
   <a name="root"> </a>
   <h2 id="root">{{site.data.pages[page.path].title}}</h2>
   <p>
-    Format(s):
+    此资源提供以下几种表述形式（报文格式）：
   </p>
   <ul>
 {% unless excludexml == 'y' %}
     <li>
-      <a href="{{[type]}}-{{[id]}}.xml.html">XML</a>
+     XML， <a href="{{[type]}}-{{[id]}}.xml.html">点击查看XML格式</a>
     </li>
 {% endunless %}
 {% unless excludejson == 'y' %}
     <li>
-      <a href="{{[type]}}-{{[id]}}.json.html">JSON</a> 
+      JSON，<a href="{{[type]}}-{{[id]}}.json.html">点击查看JSON格式</a> 
     </li>
 {% endunless %}
 {% unless excludettl == 'y' %}
     <li>
-      <a href="{{[type]}}-{{[id]}}.ttl.html">Turtle</a>
+      Turtles，<a href="{{[type]}}-{{[id]}}.ttl.html">点击查看Turtles格式</a>
     </li>
 {% endunless %}
   </ul>
@@ -37,7 +37,7 @@
   {% endif %}
 
   <p>
-    <b>文字描述</b>
+    <b>以内容展示的是此资源text元素中的值，如果资源提交时没有填写text节点，将由框架根据资源内容自动生成：</b>
   </p>
   {% include {{[type]}}-{{[name]}}.xhtml %}
 
