@@ -39,7 +39,7 @@
 {% endunless %}
   </ul>
   <a name="root"> </a>
-  <h2 id="root">StructureDefinition: {{[title]}} - Examples</h4>
+  <h2 id="root">{{[title]}}资源实例的示例</h4>
   {% assign intro = site.data.pages[page.path].intro %}
   {% if site.data.pages[page.path].intro != null %}
   <div style="display:inline-block">
@@ -49,7 +49,7 @@
   
 {% assign basepath = page.path | replace: '-examples.html', '.html' %}
 {% if site.data.pages[basepath].examples.size > 0 %}
-  <p>Examples for the {{[id]}} Profile.</p>
+  <p> {{[id]}} 资源的使用示例：</p>
   <table style="grid">
     <tbody>
       {% for example in site.data.pages[basepath].examples %}
