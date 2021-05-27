@@ -15,13 +15,13 @@
       <a href="{{[type]}}-{{[id]}}-definitions.html">详情</a>
     </li>
 {% unless excludemaps == 'y' %}
-    <li>
+    <!-- <li>
       <a href="{{[type]}}-{{[id]}}-mappings.html">映射关系</a>
-    </li>
+    </li> -->
 {% endunless %}
-    <li>
+    <!-- <li>
       <a href="{{[type]}}-{{[id]}}-examples.html">示例</a>
-    </li>
+    </li> -->
 {% unless excludexml == 'y' %}
     <li>
       <a href="{{[type]}}-{{[id]}}.profile.xml.html">XML</a>
@@ -161,9 +161,9 @@
       <div id="all-summ">
         <p>此资源的结构定义继承于： <a href="{{site.data.structuredefinitions['{{[id]}}'].basepath}}">{{site.data.structuredefinitions['{{[id]}}'].basename}}</a>
         </p>
-        <div id="all-summ-inner">
+        <!-- <div id="all-summ-inner">
           {%include StructureDefinition-{{[id]}}-summary.xhtml%}
-        </div>
+        </div> -->
       </div>
       <div id="all-tbl-diff">
         <p>
