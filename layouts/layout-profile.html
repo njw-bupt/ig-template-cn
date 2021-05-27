@@ -41,10 +41,10 @@
   <a name="root"> </a>
   <h2 id="root">结构定义: {{[title]}}</h2>
   <p>{{site.data.structuredefinitions['{{[id]}}'].description | markdownify}}</p>
-  <p>
+  <!-- <p>
   此资源已在<a target="_blank" href="{{site.data.structuredefinitions['{{[id]}}'].url}}">FHIR.PREE注册</a>，其官方定义URL如下：
   </p>
-  <pre>{{site.data.structuredefinitions['{{[id]}}'].url}}</pre>
+  <pre>{{site.data.structuredefinitions['{{[id]}}'].url}}</pre> -->
 
   {% assign intro = site.data.pages[page.path].intro %}
   {% if intro != null %}
@@ -69,9 +69,9 @@
   </p>
   <div id="tabs">
     <ul>
-      <li>
+      <!-- <li>
         <a href="#tabs-summ">文字概述</a>
-      </li>
+      </li> -->
       <li>
         <a href="#tabs-diff">差异视图</a>
       </li>
@@ -93,9 +93,9 @@
         <a href="#tabs-ttl">Pseudo-TTL</a>
       </li>-->
 {% endunless %}
-      <li>
+      <!-- <li>
         <a href="#tabs-all">全部</a>
-      </li>
+      </li> -->
     </ul>
     <a name="tabs-summ"> </a>
     <div id="tabs-summ">
