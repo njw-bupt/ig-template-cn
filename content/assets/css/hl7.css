@@ -17,6 +17,7 @@
 #family-logo {
   float: right;
   margin-left: 6px;
+  padding-top: 6px;
 }
 
 /* Generic settings common to all HL7 IGs */
