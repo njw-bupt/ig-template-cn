@@ -473,6 +473,7 @@ p > img {
 .table td {
   padding: 6px;
   line-height: 18px;
+  word-break: break-all;
 }
 .table th h1,
 .table th h2,
