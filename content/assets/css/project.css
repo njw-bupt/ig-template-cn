@@ -323,6 +323,9 @@ blockquote.stu-note {
 #tabs{
   word-break: break-all;
 }
+#tabs th{
+  word-break:keep-all;
+}
 .nav-tabs {
   margin-bottom: 20px;
 }
