@@ -320,6 +320,9 @@ blockquote.stu-note {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=var(--btn-gradient-start-color-alpha), endColorstr=var(--btn-gradient-end-color-alpha), GradientType=0);
 }
+#tabs{
+  word-break: break-all;
+}
 .nav-tabs {
   margin-bottom: 20px;
 }
